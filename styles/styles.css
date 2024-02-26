@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +7,11 @@
   list-style: none;
 }
 
+
 :root {
   --color-primary: #191d2b;
   --color-secondary: #dba2cb;
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -20,6 +23,7 @@
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
+
 
 .light-mode {
   --color-primary: #FFFFFF;
