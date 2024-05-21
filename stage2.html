@@ -53,32 +53,33 @@
         .portfolio-item h4 {
             margin-top: 20px;
         }
-        .left-image,
-        .right-image {
+        .left-image, .right-image {
             width: 45%;
             display: inline-block;
-            vertical-align: top;
-            padding: 20px;
-            border: 1px solid #ccc; /* Ajout de la bordure */
-            border-radius: 5px; /* Ajout du border-radius */
         }
-
+        .left-image img, .right-image img {
+            width: 500px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin: 5px;
+        }
         .left-image {
             float: left;
         }
-
         .right-image {
             float: right;
+        }
+        .clearfix {
+            clear: both;
         }
     </style>
 </head>
 <body>
     <div class="containr">
-        <h1>
+        <b><h1>
             <a href="https://sbdev-fr.github.io/PortfolioSelsabil/#" class="icon">
                 <i class="material-symbols-outlined">Accueil</i>
             </a>
-        </h1>
+        </h1></b>
         <h1>Bilan du Stage de Deuxième Année (8 semaines)</h1>
     </br>
         
@@ -88,11 +89,13 @@
             <div class="left-content">
                 <h2>Vue d'ensemble </h2>
 
-                <h3>Description</h3>
+                <h3>Description</h3>    </br>
+
                 <p>ERTC est une entreprise qui accompagne les professionnels du secteur cosmétique (fabricants, conditionneurs, importateurs, distributeurs ou exportateurs) dans la mise aux normes réglementaires de leurs produits afin de les commercialiser dans l’UE (Union Européenne) et également hors de l’UE en fonction des réglementations à appliquer. </br></br>
                     Le travail proposé est une application python pour une utilisation interne, permettant de créer des formules de produits cosmétiques...</p>
                 J'ai utilisé une base de donnée SQLite, et manipulé des données, dataframes, fichiers csv. Il y a différents calculs effectués dans les tableaux, exportés en pdf et xls. J'ai utilisé Tkinter pour l'interface. J'ai géré ce projet de la planification au design d'interface au déploiement.</p>
-                <h3>Compétences mises en œuvre :</h3>
+                <h3>Compétences mises en œuvre :</h3>    </br>
+
                 <ul>
                     <li>▪Développement en Python</li>
                     <li>▪Manipulation de données en CSV</li>
@@ -108,17 +111,18 @@
                     <li>▪Compétences en déploiement</li>
                     <li>▪Travail en autonomie</li>
                 </ul>
-                <h3>Outils :</h3>
+                <h3>Outils :</h3>    </br>
                 <p>Visual Studio Code, Trello, Git et GitHub, Pencil (interface), Looping (schéma de Base de donnée), SQLiteStudio, invite de commande (environnement virtuel, etc.)</p>
                 
-                <h3>Liste non exhaustive des bibliothèques Python :</h3>
+                <h3>Liste non exhaustive des bibliothèques Python :</h3>    </br>
+
                 <p>Pandas, NumPy, Matplotlib, Tkinter, CSV, SQLite3, PyPDF2, re, PyInstaller (déploiement).</p>
                 
             </div>
             <div class="right-content">
                 
                 <div style="clear: both;"></div> <!-- Ajout de cet élément pour effacer les éléments flottants -->
-                                <h2>Travaux sur les Blocs :</h2>
+                 <h2>Travaux sur les Blocs :</h2>
             
                 <h3>Bloc 1 :</h3>
                 <ul>
@@ -166,12 +170,9 @@
             </div>
 </div>
 </br>
-    <div class="left-image">
+    <div >
         <a href="https://www.certification-cosmetique.com/" target="_blank">
             <img src="img/port4.png" alt=""></a>
     </div>
-    <!--
-        <div class="right-image">
-            <a href="https://www.certification-cosmetique.com/" target="_blank">
-                <img src="img/port4.png" alt=""></a>
-        </div>-->
+</br>
+ 
