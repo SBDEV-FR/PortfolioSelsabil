@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application gestion de contact</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        h1, h2, h3, h4 {
+            color: #61dafb;
+        }
+        h1 {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .image-container {
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 1000px; /* Adjust the size as needed */
+            height: auto;
+        }
+        .containr {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .left-content,
+        .right-content {
+            width: 45%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .portfolio-item {
+            clear: both;
+        }
+        .portfolio-item h3,
+        .portfolio-item h4 {
+            margin-top: 20px;
+        }
+        .clearfix {
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <h1><a href="https://sbdev-fr.github.io/PortfolioSelsabil/#" class="icon"> <i class="material-symbols-outlined">Accueil</i></a></h1>        
+
+<h1>Gestion de contacts ( React) </h1>
+<br>
+<div class="image-container">
+</br>
+    <img src="img/contact2.png" alt="">
+</div>
+
+    <div class="right-content">
+        <h2>Notions mises en pratique  : </h2>
+        <br>
+        <ul>
+            <li><strong>React.js</strong>
+                <ul>
+                    <li>Utilisation des Hooks (useState, useEffect, useCallback)</li>
+                    <li>Gestion d'état local</li>
+                    <li>Rendu conditionnel</li>
+                    <li>Manipulation de listes avec map()</li>
+                </ul>
+            </li>
+            <li><strong>JavaScript ES6+</strong>
+                <ul>
+                    <li>Fonctions fléchées</li>
+                    <li>Déstructuration</li>
+                    <li>Méthodes de tableau (map, filter, sort)</li>
+                    <li>Opérateur de propagation (spread)</li>
+                </ul>
+            </li>
+            <li><strong>Gestion des formulaires</strong>
+                <ul>
+                    <li>Contrôle des entrées utilisateur</li>
+                    <li>Validation de formulaire</li>
+                </ul>
+            </li>
+            <li><strong>Manipulation du DOM</strong>
+                <ul>
+                    <li>Gestion des événements</li>
+                </ul>
+            </li>
+            <li><strong>Gestion de données</strong>
+                <ul>
+                    <li>Tri et filtrage de données</li>
+                    <li>Recherche en temps réel</li>
+                </ul>
+            </li>
+            <li><strong>Stockage local</strong>
+                <ul>
+                    <li>Utilisation de localStorage pour la persistance des données</li>
+                </ul>
+            </li>
+            <li><strong>CSS</strong>
+                <ul>
+                    <li>Mise en page responsive avec Flexbox</li>
+                    <li>Stylisation d'une application web moderne</li>
+                </ul>
+            </li>
+            <li><strong>Gestion d'état</strong>
+                <ul>
+                    <li>CRUD (Create, Read, Update, Delete) pour les contacts</li>
+                </ul>
+            </li>
+            <li><strong>Expressions régulières (Regex)</strong>
+                <ul>
+                    <li>Validation d'email et de numéro de téléphone</li>
+                </ul>
+            </li>
+            <li><strong>Gestion des erreurs</strong>
+                <ul>
+                    <li>Affichage de messages d'erreur personnalisés</li>
+                </ul>
+            </li>
+        </ul></div>
+
+        <div class="left-content">
+            <h2><b>Objectifs</b></h2>
+            <p> L'application de Gestion de Contacts est une solution web moderne développée avec React.js, conçue pour offrir une interface utilisateur intuitive et réactive pour la gestion efficace des informations de contact.
+                Cette application permet aux utilisateurs d'ajouter, modifier, supprimer et visualiser des contacts. Chaque contact est composé d'un nom, d'un numéro de téléphone et d'une adresse email. L'interface est divisée en deux parties principales : un formulaire de saisie à gauche pour ajouter ou modifier des contacts, et un tableau à droite affichant la liste des contacts existants.
+                Les fonctionnalités clés incluent :
+                Validation en temps réel des entrées utilisateur, avec des messages d'erreur en français pour le format du numéro de téléphone et de l'email.
+                Possibilité de rechercher des contacts à travers tous les champs.
+                Tri des contacts par nom, téléphone ou email, en ordre croissant ou décroissant.
+                Persistance des données grâce à l'utilisation du localStorage, permettant de conserver les contacts même après la fermeture du navigateur.
+                L'interface s'adaptent aux différentes tailles d'écran.
+            </p></br>
+            <a href="https://github.com/SBDEV-FR/contact-react.git" class="main-btn" target="_blank"> 
+                <span class="btn-text">Lien vers le github</span>
+            </a></div>
+</body>
+</html>
